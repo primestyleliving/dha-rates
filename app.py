@@ -4,7 +4,7 @@ import plotly.express as px
 
 # --- CONFIGURATION ---
 # Paste your Google Sheet 'Publish to Web' CSV link here
-CSV_URL = "PASTE_YOUR_GOOGLE_SHEET_CSV_LINK_HERE"
+CSV_URL = https://docs.google.com/spreadsheets/d/e/2PACX-1vQQdcADk9OkmgN7WPikIJ_AevLw5efvYObT67hrzgEHGyDnavYqwCMtLhV1ESLQrpcj-7-eFjVmquPf/pub?output=csv
 
 # Define the columns we care about (excluding Timestamp)
 PROPERTY_COLS = [
@@ -135,4 +135,5 @@ elif menu == "Admin Entry":
     else:
         if password:
             st.error("Incorrect Password")
+
         st.warning("This section is for employees only.")
