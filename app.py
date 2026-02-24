@@ -120,7 +120,7 @@ elif menu == "Admin Entry":
         st.info("💡 Use the Google Form below to enter daily rates.")
         
         # Replace with your actual Google Form Link
-        FORM_LINK = "PASTE_YOUR_GOOGLE_FORM_LINK_HERE"
+        FORM_LINK = "https://forms.gle/PBT2fF47w2Hg8ZbR6"
         
         st.markdown(f"""
         ### Data Entry Portal
@@ -137,4 +137,5 @@ elif menu == "Admin Entry":
             st.error("Incorrect Password")
 
         st.warning("This section is for employees only.")
+
 
