@@ -36,7 +36,7 @@ menu = st.sidebar.radio("Go to", ["Public Dashboard", "Admin Entry"])
 
 # --- PUBLIC DASHBOARD ---
 if menu == "Public Dashboard":
-    st.title("📈 DHA Phase 10 File Rates")
+    st.title("📈 DHA Phase 10 File Rates (Lac)")
     st.markdown("Live updates based on daily market entries.")
 
     df = load_data()
@@ -137,5 +137,6 @@ elif menu == "Admin Entry":
             st.error("Incorrect Password")
 
         st.warning("This section is for employees only.")
+
 
 
